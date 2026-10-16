@@ -1,0 +1,62 @@
+{
+  "name": "salalihini-sandeshaya",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An immersive, bilingual (Sinhala and English) reader for the 15th-century Sinhala messenger poem Salalihini Sandeshaya, with a 3D map of the starling's route from Kotte to Kelaniya.",
+  "license": "MIT",
+  "author": "WasathTheekshana",
+  "homepage": "https://github.com/WasathTheekshana/salalihini-sandeshaya#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WasathTheekshana/salalihini-sandeshaya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WasathTheekshana/salalihini-sandeshaya/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/WasathTheekshana"
+  },
+  "keywords": [
+    "sinhala",
+    "sri-lanka",
+    "poetry",
+    "sandesha-kavya",
+    "education",
+    "nextjs",
+    "threejs",
+    "react-three-fiber",
+    "digital-humanities"
+  ],
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.1",
+    "@react-three/postprocessing": "^3.1.3",
+    "motion": "^14.0.0",
+    "next": "16.4.0",
+    "postprocessing": "^6.39.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.186.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
